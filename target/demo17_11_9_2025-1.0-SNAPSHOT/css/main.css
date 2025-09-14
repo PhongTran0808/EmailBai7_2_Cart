@@ -1,0 +1,109 @@
+/* =======================
+   Reset cơ bản
+   ======================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    background: #f7f7f7;
+    color: #333;
+    padding: 20px;
+}
+
+/* =======================
+   Tiêu đề
+   ======================= */
+h1, h2 {
+    margin-bottom: 15px;
+    color: #00695c;
+}
+
+/* =======================
+   Bảng
+   ======================= */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background: #e0f2f1;
+    font-weight: bold;
+}
+
+table td form {
+    margin: 0;
+}
+
+/* =======================
+   Input và Nút
+   ======================= */
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+input[type="submit"], button {
+    padding: 6px 12px;
+    background: #00796b;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Căn giữa form và nút */
+.form-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-center input[type="submit"],
+
+.form-center button {
+    width: auto;
+    min-width: 150px;
+}
+
+input[type="submit"]:hover, button:hover {
+    background: #004d40;
+}
+
+/* =======================
+   Cart
+   ======================= */
+.cart-actions {
+    margin-top: 15px;
+}
+
+.cart-actions input,
+.cart-actions button {
+    margin-right: 10px;
+}
+
+/* =======================
+   Footer
+   ======================= */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #666;
+}
